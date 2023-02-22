@@ -12,6 +12,13 @@
       p.large-header { font-size: 30pt; font-weight: bold; }
       p.large-text { font-size: 16pt; }
       p.very-large-text { font-size: 28pt; }
+      p.overlay { font-size: 20pt;
+                  color: red;
+                  position: absolute;
+                  border-top:2px solid red;
+                  border-bottom:2px solid red;
+                  top: 75; left: 0;
+                  transform:rotate(-30deg); }
     </style>
     <title>Wyre Forest Badminton - Friendly Group - Playing Tuesday and Thursday Evenings</title>
 </head>
@@ -25,8 +32,10 @@
       <p class="large-text">Leisure Centre, Stourport Road,</p>
       <p class="medium-header">KIDDERMINSTER</p>
       <br>
+      <div id="overlay_div_id">
       <p class="very-large-text"><b>Tuesdays</b> 7.00 - 8.00pm</p>
       <p class="very-large-text">and / or</p>
+      </div>
       <p class="very-large-text"><b>Thursdays</b> 8.00 - 9.00pm</p>
       <br>
       <p><b>Complimentary First Night</b> ~ Reasonable Fees</p>
@@ -47,5 +56,6 @@
     Tuesday 7pm and Thursday 8pm at the Wyre Forest leisure centre in<br>
     Kidderminster. We have players from the Stourport, Kidderminster and Bewdley<br>
     areas. Everyone aged 18 to Seniors Welcome but sorry, no beginners.</p>
+    <p class="overlay">Tuesday session full</p>
   </body>
 </html>
